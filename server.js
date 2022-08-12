@@ -27,7 +27,7 @@ app.listen(PORT, console.log(`server on port ${PORT}`));
 
 // API Calls - GET
 app.get('/', (req, res) => {
-    res.send("API IS WORKING");
+    res.send("API IS RUNNING");
 });
 
 // Routes for the Admin
